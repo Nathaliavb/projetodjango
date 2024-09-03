@@ -14,3 +14,6 @@ def cars_views(request):
         'cars.html',
         {'cars': cars}
     )
+
+def new_car_view (request):
+   return 'Novo Carro!'
