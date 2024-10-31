@@ -1,7 +1,7 @@
 from django.contrib import admin
 from cars.models import Car, Brand
 
-# Register your models here.
+
 class CarAdmin(admin.ModelAdmin):
     list_display = ('model', 'brand', 'factory_year', 'value')
     search_fields = ('model', 'brand')
